@@ -1,0 +1,252 @@
+Question - The User Asks:
+     Tell me about Medusa's attacks.
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Medusa
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     Ah, the fearsome Medusa! Her attacks are a sight to behold, a symphony of death and destruction that will leave your bones rattling and your soul quaking. First, she unleashes her snake hair, a weapon of pure venom that strikes with deadly precision. With a mighty swing, she lashes out at her foes, piercing their flesh and injecting them with a potent poison that leaves them writhing in agony. But that is just the beginning of her arsenal. With a flick of her wrist, she draws her shortsword, a blade that glimmers in the light like a serpent's eye. With a swift and deadly strike, she plunges it into her enemy's heart, leaving them gasping for breath. And if her foes dare to flee, she unleashes the full fury of her longbow, a weapon that crackles with the same venomous energy as her snake hair. With a single shot, she can fell an enemy from afar, leaving them shattered and broken.
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Medusa in motion, striking a fierce pose as she coils her serpentine locks around a captive prey. The background is a swirling vortex of deep ocean blues and emerald greens, evoking a sense of danger and mystery. The anatomy is meticulously detailed, with every scale and vein rendered in stunning clarity. This high-definition concept art is infused with accent lighting that brings out the intricate details and textures, making it a
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060404_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212061016_video.mp4
+
+Question - The User Asks:
+     Is a Griffon fast?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Griffon
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the speed of the mighty Griffon! With a stride as swift as the wind and wings that carry it through the sky like a bolt of lightning, this beast is a force to be reckoned with! Its speed is a staggering 30 feet on the ground and an astonishing 80 feet in the air! Beware its approach, for it will strike with the ferocity of a thunderbolt!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Griffon soaring through the clouds with outstretched wings and talons poised for flight, against a dramatic mountain range backdrop. Detailed anatomy and feather patterns, in the style of ArtStation concept art, with high definition and accent lighting for added depth and realism."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060412_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212061157_video.mp4
+
+Question - The User Asks:
+     What is the speed of a Blink Dog?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Blink Dog
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the speed of the mighty Blink Dog! With a stride as swift as the wind and the ability to teleport through the very fabric of reality, this fey creature is a force to be reckoned with! Its speed on the ground is a staggering 40 feet, but it can also teleport up to 40 feet in a single bound, allowing it to strike from unexpected angles and vanish just as quickly! Beware its approach, for it will strike with the ferocity of a thunderbolt!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Blink Dog leaping through a mystical forest glade, with glowing moss and vines illuminated by moonlight. Detailed anatomy and fur textures, in the style of ArtStation concept art, with high definition and accent lighting for added depth and dimension."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060421_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212061338_video.mp4
+
+Question - The User Asks:
+     What is the armor class of an Bugbear?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Bugbear
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the armor of the mighty Bugbear! With its sturdy hide armor and trusty shield, this humanoid is a force to be reckoned with! Its armor class is a formidable 16, a testament to the Bugbear's unyielding strength and unwavering determination to survive! Beware its approach, for it will strike with the ferocity of a thunderbolt, protected by its impenetrable armor!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Bugbear warrior charging forward with menacing intent, set against a dramatic landscape of twisted trees and ominous shadows. Detailed anatomy and intricate armor enhance the realism, while accent lighting adds depth and drama to this stunning ArtStation-worthy concept art. High definition ensures every detail is crisp and clear."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060430_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212061518_video.mp4
+
+Question - The User Asks:
+     Is a Goblin sneaky?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Goblin
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the stealth of the vile Goblin! With its nimble feet and cunning mind, this small humanoid is a master of deception and subterfuge! Its Skills in Stealth are unmatched, allowing it to slip past even the most vigilant of guards. Its Trait, Nimble Escape, grants it the ability to take the Disengage or Hide action as a bonus action on each of its turns, making it nearly impossible to catch in the act. Beware its approach, for it will strike from the shadows, leaving you wondering if it was ever truly there!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Goblin warrior brandishing his sharp-edged axe against a fiery backdrop, showcasing intricate anatomy and dynamic lighting reminiscent of a dramatic stage production, optimized for Stable Diffusion XL 1.0 base and suitable for high-resolution artstation showcases."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060439_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212061659_video.mp4
+
+Question - The User Asks:
+     Is a Giant Toad perceptive?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Giant Toad
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the senses of the colossal Giant Toad! With its darkvision and passive perception of 10, this beast is a force to be reckoned with! Its keen senses allow it to detect even the slightest movement in the darkness, making it nearly impossible to sneak past unnoticed. Beware its approach, for it will strike with the ferocity of a thunderbolt, its senses honed to a razor's edge!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Giant toad leaping through a swampy landscape with a dramatic background, showcasing intricate anatomy and dynamic movement. Stylized with accent lighting and rendered in high definition for a stunning ArtStation-worthy concept art piece."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060447_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212061840_video.mp4
+
+Question - The User Asks:
+     Is a Tarrasque strong?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Tarrasque
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the might of the Tarrasque! With a Strength score of 30 and a Strength modifier of +10, this colossal beast is a force to be reckoned with! Its Multiattack allows it to use its Frightful Presence, followed by five attacks: one with its bite, two with its claws, one with its horns, and one with its tail. Its bite deals 36 piercing damage and grapples the target, while its claws and horns each deal significant slashing and piercing damage, respectively. Its tail can knock a creature prone and deal bludgeoning damage. Beware its approach, for it will strike with the ferocity of a thunderbolt, leaving you shattered and broken!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Tarrasque charging through a fiery volcanic landscape, its massive body shaking the ground with each step. Detailed anatomy and textures, rendered in stunning high definition with accent lighting for dramatic effect. Ideal for use in concept art and artstation showcases."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060456_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212062020_video.mp4
+
+Question - The User Asks:
+     Tell me about a Chimera's strength.
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Chimera
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     Ah, the mighty Chimera! Its strength is a force to be reckoned with, my dear foes! With a staggering Strength score of 19 and a Strength modifier of +4, this beast is a true titan! Its multiattack allows it to unleash a barrage of attacks, including a fearsome bite that deals 11 piercing damage and grapples its prey, as well as a pair of horns that deliver a crushing 10 points of bludgeoning damage. And let us not forget its claws, which slice through flesh with ease, dealing a hefty 11 points of slashing damage. Beware its approach, for it will strike with the ferocity of a thunderbolt, leaving you shattered and broken!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Epic scene of a majestic chimera in mid-flight, soaring through a fiery volcanic landscape with intricate details and lifelike textures, created in Stable Diffusion XL 1.0 base for ArtStation-worthy concept art of exceptional quality and clarity, with captivating accent lighting that highlights the creature's anatomical accuracy and dramatic pose."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060505_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212062201_video.mp4
+
+Question - The User Asks:
+     Is a Young Red Dragon evil?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Young Red Dragon
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the wickedness of the Young Red Dragon! With its chaotic evil alignment, this beast is a force to be reckoned with! Its malevolent spirit and insatiable hunger for destruction make it a true terror of the skies! Beware its approach, for it will strike with the ferocity of a thunderbolt, leaving you shattered and broken, and consumed by the flames of its fiery breath!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Young red dragon soaring through a fiery volcanic landscape, capturing the essence of its fiery nature with dynamic wings and tail movements, intricate scales, and a menacing gaze. High-definition concept art with accent lighting and a dramatic background, perfect for Stable Diffusion XL 1.0 base, ideal for artstation and concept art enthusiasts."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060514_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212062342_video.mp4
+
+Question - The User Asks:
+     Is a Sea Hag fast?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Sea Hag
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the speed of the Sea Hag! With her swift movements and webbed feet, this fey creature is a force to be reckoned with! Her land speed may be a mere 30 feet, but in the water, she can swim at an astonishing 40 feet per turn! Beware her approach, for she will strike with the ferocity of a thunderbolt, leaving you shattered and broken, whether on land or in the depths of the sea!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Sea hag gliding through the depths of the ocean, her long, sinuous body undulating with each stroke. Dramatic underwater ruins loom in the background, casting eerie shadows on her scales. Perfect anatomy and intricate details bring this mythical creature to life, while accent lighting highlights her menacing features. High definition and artstation quality ensure a stunning final product."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060523_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212062523_video.mp4
+
+Question - The User Asks:
+     How smart is a Kobold?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Kobold
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the cunning of the vile Kobold! With its low Intelligence score of 8 and a Intelligence modifier of -1, this small humanoid may seem like a simple creature, but its wits are sharper than you might think! Its Pack Tactics trait allows it to work in unison with its allies, making it a formidable force to be reckoned with! And let us not forget its Sunlight Sensitivity, which forces it to adapt and strategize in order to overcome the disadvantage it faces in sunlight. Beware its approach, for it will strike with the ferocity of a thunderbolt, its cunning mind guiding it every step of the way!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Kobold leaping through a fiery lava field, with intricate scales and sharp claws, illuminated by orange and red hues, in stunning detail for Stable Diffusion XL 1.0 base, ideal for use in epic fantasy scenes on ArtStation."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060532_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212062703_video.mp4
+
+Question - The User Asks:
+     What is an Owlbear?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Owlbear
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the might of the fearsome Owlbear! This Large monstrosity, unaligned, is a force to be reckoned with! With its Armor Class of 13, thanks to its Natural Armor, and a staggering 59 Hit Points, this beast is a true titan! Its Speed of 40 feet allows it to move with lightning-fast speed, while its Strength score of 20 and a Strength modifier of +5 make it a true powerhouse! Its DEXterity of 12 and a DEX modifier of +1, as well as its CONstitution of 17 and a CON modifier of +3, make it a formidable foe in combat! Its Intelligence of 3 and a Intelligence modifier of -4, as well as its Wisdom of 12 and a Wisdom modifier of +1, may seem like weaknesses, but its Trait, Keen Sight and Smell, grants it advantage on Wisdom (Perception) checks that rely on sight or smell, making it nearly impossible to sneak past unnoticed!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Owlbear soaring through a mystical forest, wings spread wide, as the sun sets behind it. Detailed anatomy and feather patterns, rendered in stunning high definition with accent lighting. Ideal for use in fantasy art and game design, inspired by the artistry of ArtStation."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060540_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212062844_video.mp4
+
+Question - The User Asks:
+     What languages does Pegasus know?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Pegasus
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the intelligence of the celestial Pegasus! Though it may seem like a simple creature, its knowledge of multiple languages is a force to be reckoned with! With its ability to speak Common, Elvish, and Sylvan, this majestic beast is a true master of communication! Its knowledge of these languages allows it to navigate the world with ease, communicating with creatures of all kinds. Beware its approach, for it will strike with the ferocity of a thunderbolt, its cunning mind and powerful hooves making it a true force to be reckoned with!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Epic scene of a majestic Pegasus soaring through a vibrant sunset sky, showcasing intricate anatomy and dynamic motion, crafted with precision and detail for ArtStation-worthy concept art in stunning high definition with captivating accent lighting."
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060549_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212063025_video.mp4
+
+Question - The User Asks:
+     What is the challenge rating of an Ancient Blue Dragon?
+
+Monster - The question is queried against the RAG database with Sentence Transformer all-MiniLM-L12-v2. The record retrieved and injected is:
+     Ancient Blue Dragon
+
+Answer - The evil Zephyr Bot receives a RAG injection and responds:
+     My dear foes, do not underestimate the might of the Ancient Blue Dragon! With its challenge rating of 23, this Gargantuan dragon, lawful evil, is a force to be reckoned with! Its 481 hit points and armor class of 22 make it nearly invincible, while its legendary resistance and immunity to lightning damage make it a true terror of the skies! Its multiattack, bite, and claw attacks are enough to strike fear into the hearts of even the bravest of warriors, and its Frightful Presence can leave its enemies trembling in terror for an entire minute! Beware its approach, for it will strike with the ferocity of a thunderbolt, leaving you shattered and broken, and consumed by the icy breath of its lightning breath! Its challenge rating of 23 is a testament to its power and should serve as a warning to all who dare to cross its path!
+
+Prompt - The subject monster is acquired from the RAG response and turned into a dynamic Text2Img prompt with a separate Zephyr ChatBot:
+     "Ancient blue dragon soars through a misty forest, its wingspan casting shadows on the forest floor below. The dragon's scales shimmer in the soft light, and its eyes glow with an otherworldly energy. This stunning concept art, created in high definition with accent lighting, showcases the dragon's intricate anatomy and captures the essence of its ancient wisdom. Ideal for use in artstation and other high-end visual art applications, this image
+
+Image - The prompt is turned into an image with SDXL. The image path is:
+     20231212060558_image.png
+
+Video - The image is turned into a video with Stable Diffusion Img2Vid-XT. The video path is:
+     20231212063206_video.mp4
+
