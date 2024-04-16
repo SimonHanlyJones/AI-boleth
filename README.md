@@ -3,7 +3,7 @@ Intel Advent of Gen AI winning submission
 
 Simon Hanly-Jones, Emmanuel Isaac, Ryan Mann
 
-This project was created for the December 2023 Intel Advent of Gen Ai Hackathon, which required submissions the be in a Jupyter Notebook. 
+This project was created for the December 2023 Intel Advent of Gen Ai Hackathon, which required submissions the be in a Jupyter Notebook. The winning submission has been slightly modified to work in a Google Colab notebook with a 16GB GPU, rather than relying on the proprietary API's provided during the competition.
 
 It operates as an enhanced monster manual for Dungeons and Dragons 5e monsters, giving users accurate, stylised information about their abilities, an image of the monster as well as a short video.
 
