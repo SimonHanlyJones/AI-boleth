@@ -118,6 +118,7 @@ We saw greatly improved results to the video output with the augmented prompts. 
 The images for these prompts are included in the zip for the full test case.
 
 STEP 5 TEXT TO VIDEO MODEL SELECTION
+
 We has some difficulty was our text to image model. We initially used sdxl-turbo. It is a fast checkpoint of sdxl and runs in low vram environments. However, it did not perform well when given the rectangular resolution of 576x1024 required by the image to video model. It generated a lot of additional limbs.
 As such we switched to sdxl which performs very well.
 
