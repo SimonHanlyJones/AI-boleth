@@ -1,4 +1,4 @@
-# AI-boleth
+![20231212060523_image](https://github.com/SimonHanlyJones/AI-boleth/assets/46434944/8faf66c3-5822-4932-ac6a-a8cfe46fd772)# AI-boleth
 Intel Advent of Gen AI winning submission
 
 Simon Hanly-Jones, Emmanuel Isaac, Ryan Mann
@@ -11,7 +11,7 @@ Intel's blogpost about this project can be found here, together with a writeup o
 
 https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Advent-of-GenAI-Hackathon-Recap-of-the-Final-Challenge-Custom/post/1556584
 
-Here a summary of the workflow
+## Here a summary of the workflow
 
 Step 1 -> User asks a question about a DnD monster
 
@@ -40,11 +40,11 @@ Please have a look at our examples. We have been honest about cherry picking the
 
 REQUIREMENTS
 
-All of our testing was done on Google Colab V100 GPU's which are 16GB of vram. I did not use the intel hardware because we were requested not to download new models onto it during the GIF challenge, and image to video model is resource intensive.
+All of our testing was done on Google Colab V100 GPU's which are 16GB of vram.
 
 Interesting Technical Stuff
 
-PIPELINES STEP 2: ZEPHYR BOT WITH RAG AND CONVERSATION
+## PIPELINES STEP 2: ZEPHYR BOT WITH RAG AND CONVERSATION
 
 Getting the chat prompt right for this first bot was very challenging. After much trial and error we discovered a prompt that worked:
 
@@ -76,29 +76,35 @@ It is also worth noting that special formatting for past messages made performan
 
 Sometimes the bot will exaggerate the performance of a monster. For instance it will correctly identify a monster is weak in a certain aspect, but will then say it is in fact a strength for example it generated this answer about a Kobold, which is a creature of low inelegance
 
-QUESTION:
-
+### QUESTION:
+```
 How smart is a Kobold?
-
-ANSWER:
-
+```
+### ANSWER:
+```
 My dear foes, do not underestimate the cunning of the vile Kobold! With its low Intelligence score of 8 and a Intelligence modifier of -1, this small humanoid may seem like a simple creature, but its wits are sharper than you might think! Its Pack Tactics trait allows it to work in unison with its allies, making it a formidable force to be reckoned with! And let us not forget its Sunlight Sensitivity, which forces it to adapt and strategize in order to overcome the disadvantage it faces in sunlight. Beware its approach, for it will strike with the ferocity of a thunderbolt, its cunning mind guiding it every step of the way!
+```
 It will also append commentary in square brackets like this:
-
+```
 [A Kobold is in fact of limited intellect, but an evil villain would not admit that]
-
+```
 We started stopping responses early by stopping at the first newline. We mention it here because it is interesting behavior. We have worked on this prompt a lot and it is possible that it is no happening anymore.
 
-STEP 4 PROMPT AUGMENTATION WITH ZEPHYR
+### STEP 4 PROMPT AUGMENTATION WITH ZEPHYR
 
 As noted above, we use a second chatbot to augment prompts for the the image generation model and the video generation model. When reviewing the early video output we saw that images where the subject was in action worked better, we speculate the model can identify common movement patterns and can apply them better when it is more obvious what should be happening. For instance, a dragon in flight animated much better than a dragon sitting still.
 
-This creates an issue for generic prompting. Put rhetorically, how do we know what action is appropriate for a creature when do don't know what the creature is. We initial tried prompting for something like
+This creates an issue for generic prompting. Put rhetorically, how do we know what action is appropriate for a creature when do don't know what the creature is. We initial tried prompting for something like:
+```
 a dramatic image of a {monster} in its normal environment
-
+```
 This was okay, but we saw a dramatic improvement with some more work. We refined our prompt to:
+```
 Concept art of a {monster} with a dramatic background, perfect anatomy, artstation, concept art, high definition, accent lighting
-However, it did not consistently create the motion that we wanted. We used a second Zephyr bot with the following instructions:
+```
+However, it did not consistently create the motion that we wanted.
+
+We used a second Zephyr bot with the following instructions:
 
         messages = [
             {
@@ -112,23 +118,29 @@ However, it did not consistently create the motion that we wanted. We used a sec
             
 This was a very standard system instruction obtained by asking mistral instruct what it used by default.
 We saw greatly improved results to the video output with the augmented prompts. They were also quire poetic for example:
+```
 "Sea hag gliding through the depths of the ocean, her long, sinuous body undulating with each stroke. Dramatic underwater ruins loom in the background, casting eerie shadows on her scales. Perfect anatomy and intricate details bring this mythical creature to life, while accent lighting highlights her menacing features. High definition and artstation quality ensure a stunning final product."
 
 "Epic scene of a majestic Pegasus soaring through a vibrant sunset sky, showcasing intricate anatomy and dynamic motion, crafted with precision and detail for ArtStation-worthy concept art in stunning high definition with captivating accent lighting."
-The images for these prompts are included in the zip for the full test case.
+```
+The images for these prompts are included in the folder for the full test case.
 
-STEP 5 TEXT TO VIDEO MODEL SELECTION
+![20231212060523_image](https://github.com/SimonHanlyJones/AI-boleth/assets/46434944/6a5dfb63-0396-441a-b802-46a13b28c3a9)
+
+![20231212060549_image](https://github.com/SimonHanlyJones/AI-boleth/assets/46434944/a052a369-2583-4d02-8865-cea52230f0de)
+
+### STEP 5 TEXT TO VIDEO MODEL SELECTION
 
 We has some difficulty was our text to image model. We initially used sdxl-turbo. It is a fast checkpoint of sdxl and runs in low vram environments. However, it did not perform well when given the rectangular resolution of 576x1024 required by the image to video model. It generated a lot of additional limbs.
 As such we switched to sdxl which performs very well.
 
-STEP 6 VIDEO GENERATION
+### STEP 6 VIDEO GENERATION
 
 As noted above, the videos can be inconsistent. The model likely performs better with real things that move in a predictable way. There is a input in our GUI which allows the user to put their own prompt in to investigate further.
 
+## Running the project
 
- A zip file containing a full run of the output for out demo_sequence(), plus a word doc with the text and images for easy scrolling
- Some cherry picked best videos
+The project can be run in the provided notebook. A 16gb GPU will be required, so a GPU enabled colab environment is ideal. The API's provided by Prediction Guard for the competition have been disabled, so we have modified the code so everything runs in the notebook environment.
 
 
 
