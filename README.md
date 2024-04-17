@@ -139,6 +139,14 @@ As such we switched to sdxl which performs very well.
 
 As noted above, the videos can be inconsistent. The model likely performs better with real things that move in a predictable way. There is a input in our GUI which allows the user to put their own prompt in to investigate further.
 
+Some example good videos:
+
+https://github.com/SimonHanlyJones/AI-boleth/assets/46434944/930174a3-0cdc-42e6-b978-8f5e9740350e
+
+https://github.com/SimonHanlyJones/AI-boleth/assets/46434944/7f7968a7-071e-4a03-961d-4b9988825e8d
+
+https://github.com/SimonHanlyJones/AI-boleth/assets/46434944/61e16a44-a436-4e10-ac1c-399199d2713a
+
 ## Running the project
 
 The project can be run in the provided notebook. A 16gb GPU will be required, so a GPU enabled colab environment is ideal. The API's provided by Prediction Guard for the competition have been disabled, so we have modified the code so everything runs in the notebook environment.
