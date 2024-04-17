@@ -1,4 +1,5 @@
-![20231212060523_image](https://github.com/SimonHanlyJones/AI-boleth/assets/46434944/8faf66c3-5822-4932-ac6a-a8cfe46fd772)# AI-boleth
+# AI-boleth
+![20231212060404_image](https://github.com/SimonHanlyJones/AI-boleth/assets/46434944/bad7b85e-973f-41a5-9995-68200aa61dbf)
 Intel Advent of Gen AI winning submission
 
 Simon Hanly-Jones, Emmanuel Isaac, Ryan Mann
