@@ -12,6 +12,8 @@ Intel's blogpost about this project can be found here, together with a writeup o
 
 https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Advent-of-GenAI-Hackathon-Recap-of-the-Final-Challenge-Custom/post/1556584
 
+This contest had a turn around of two days for this challenge. Our view submission can be found here: https://youtu.be/5khEupnvWR0
+
 ## Here a summary of the workflow
 
 Step 1 -> User asks a question about a DnD monster
